@@ -31,9 +31,12 @@ def purple(text); colorize(text, 35); end
 def cyan(text); colorize(text, 36); end
 
 #begin step
-puts green("Kampoeng Network") + " | " + cyan("https://facebook.com/freeeaks") + " : " + purple("Vico Ervanda");
-puts cyan("https://facebook.com/adiebiazajah") + " : " + purple("SunDi3yansyah");
-puts cyan("https://github.com/SurabayaBlackhat/AFDFDE") + " : " + green("Surabaya BlackHat") + "\n\n";
+puts cyan("//github.com/kampoeng/ruby-AFDFDE") + "    : " + red("ruby-AFDFDE Repository")
+puts cyan("//github.com/SurabayaBlackhat/AFDFDE") + " : " + red("Exploit on Github SBH")
+puts cyan("//fb.com/freeeaks") + "                    : " + purple("Vico Ervanda");
+puts cyan("//fb.com/adiebiazajah") + "                : " + purple("SunDi3yansyah");
+puts cyan("//fb.com/100004896060156") + "             : " + purple("CaFc Versace");
+puts cyan("//kampoeng.co.id") + "                     : " + green("Kampoeng Network") + "\n\n";
 puts green("Theme ID : ");
 for i in 0..12
 	puts purple(i.to_s) + " : " + yellow(themeCollection[i]);
